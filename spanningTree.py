@@ -20,7 +20,7 @@ def prim_mst(graph):
 
 # Example graph representation
 graph = {
-    'A': {'B': 4, 'H': 8},
+    ' 8},
     'B': {'A': 4, 'C': 8, 'H': 11},
     'C': {'B': 8, 'D': 7, 'I': 2, 'F': 4},
     'D': {'C': 7, 'E': 9, 'F': 14},
@@ -32,4 +32,4 @@ graph = {
 }
 
 mst = prim_mst(graph)
-print("Minimum
+print("Minimum Spanning Tree:", mst)
